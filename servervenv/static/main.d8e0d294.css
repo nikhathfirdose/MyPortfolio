@@ -272,7 +272,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #ff0060;
+  color: #008cff;
   text-decoration: none;
 }
 a:focus,
@@ -507,11 +507,11 @@ mark {
   color: #777;
 }
 .text-primary {
-  color: #ff0060;
+  color: #008cff;
 }
 a.text-primary:focus,
 a.text-primary:hover {
-  color: #cc004d;
+  color: #2500cc;
 }
 .text-success {
   color: #fff;
@@ -543,11 +543,11 @@ a.text-danger:hover {
 }
 .bg-primary {
   color: #fff;
-  background-color: #ff0060;
+  background-color: #008cff;
 }
 a.bg-primary:focus,
 a.bg-primary:hover {
-  background-color: #cc004d;
+  background-color: #008cff;
 }
 .bg-success {
   background-color: #87e329;
@@ -571,11 +571,11 @@ a.bg-warning:hover {
   background-color: #f7ecb5;
 }
 .bg-danger {
-  background-color: #ff2c74;
+  background-color: #008cff;
 }
 a.bg-danger:focus,
 a.bg-danger:hover {
-  background-color: #f80055;
+  background-color: #008cff;
 }
 .page-header {
   padding-bottom: 11.5px;
@@ -2241,7 +2241,7 @@ textarea.input-lg {
 .has-error .input-group-addon {
   color: #fff;
   border-color: #fff;
-  background-color: #ff2c74;
+  background-color: #4400ff;
 }
 .has-error .form-control-feedback {
   color: #fff;
@@ -2464,8 +2464,8 @@ fieldset[disabled] .btn-default:hover {
 }
 .btn-primary {
   color: #fff;
-  background-color: #ff0060;
-  border-color: #ff0060;
+  background-color: #008cff;
+  border-color: #008cff;
 }
 .btn-primary.focus,
 .btn-primary:focus {
@@ -2478,8 +2478,8 @@ fieldset[disabled] .btn-default:hover {
 .btn-primary:hover,
 .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #cc004d;
-  border-color: #c20049;
+  background-color: #2500cc;
+  border-color: #2400c2;
 }
 .btn-primary.active.focus,
 .btn-primary.active:focus,
@@ -2491,7 +2491,7 @@ fieldset[disabled] .btn-default:hover {
 .open > .btn-primary.dropdown-toggle:focus,
 .open > .btn-primary.dropdown-toggle:hover {
   color: #fff;
-  background-color: #a8003f;
+  background-color: #4400ff;
   border-color: #800030;
 }
 .btn-primary.active,
@@ -2508,11 +2508,11 @@ fieldset[disabled] .btn-default:hover {
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
-  background-color: #ff0060;
-  border-color: #ff0060;
+  background-color: #008cff;
+  border-color: #008cff;
 }
 .btn-primary .badge {
-  color: #ff0060;
+  color: #008cff;
   background-color: #fff;
 }
 .btn-success {
@@ -2728,7 +2728,7 @@ fieldset[disabled] .btn-danger:hover {
   background-color: #fff;
 }
 .btn-link {
-  color: #ff0060;
+  color: #008cff;
   font-weight: 400;
   border-radius: 0;
 }
@@ -2895,7 +2895,7 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #ff0060;
+  background-color: #008cff;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:focus,
@@ -3317,7 +3317,7 @@ tbody.collapse.in {
 .nav .open > a:focus,
 .nav .open > a:hover {
   background-color: #eee;
-  border-color: #ff0060;
+  border-color: #008cff;
 }
 .nav .nav-divider {
   height: 1px;
@@ -3366,7 +3366,7 @@ tbody.collapse.in {
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover {
   color: #fff;
-  background-color: #ff0060;
+  background-color: #008cff;
 }
 .nav-stacked > li {
   float: none;
@@ -4024,7 +4024,7 @@ a.label:hover {
   background-color: #5e5e5e;
 }
 .label-primary {
-  background-color: #ff0060;
+  background-color: #008cff;
 }
 .label-primary[href]:focus,
 .label-primary[href]:hover {
@@ -4086,7 +4086,7 @@ a.label:hover {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #ff0060;
+  color: #008cff;
   background-color: #fff;
 }
 .list-group-item > .badge {
@@ -4731,9 +4731,9 @@ button.close {
   }
 }
 body {
-  background-image: -webkit-linear-gradient(top, #ff0060, #ff6975);
-  background-image: -o-linear-gradient(top, #ff0060 0, #ff6975 100%);
-  background-image: linear-gradient(180deg, #ff0060 0, #ff6975);
+  background-image: -webkit-linear-gradient(top, #008cff, #ff6975);
+  background-image: -o-linear-gradient(top, #008cff 0, #ff6975 100%);
+  background-image: linear-gradient(180deg, #008cff 0, #ff6975);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFF0060",endColorstr="#FFFF6975",GradientType=0);
 }
@@ -4778,7 +4778,7 @@ body.white {
   left: 0;
   right: 0;
   bottom: 30%;
-  box-shadow: inset 0 -40px 60px 10px #ff0060;
+  box-shadow: inset 0 -40px 60px 10px #008cff;
 }
 .card {
   border-radius: 0.25rem;
@@ -4828,9 +4828,9 @@ body.white {
 }
 .btn-primary,
 .btn-primary:hover {
-  background-image: -webkit-linear-gradient(left, #ff6975, #ff0060);
-  background-image: -o-linear-gradient(left, #ff6975 0, #ff0060 100%);
-  background-image: linear-gradient(90deg, #ff6975 0, #ff0060);
+  background-image: -webkit-linear-gradient(left, #ff6975, #008cff);
+  background-image: -o-linear-gradient(left, #ff6975 0, #008cff 100%);
+  background-image: linear-gradient(90deg, #ff6975 0, #008cff);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFF6975",endColorstr="#FFFF0060",GradientType=1);
 }
@@ -4895,7 +4895,7 @@ h5 a {
 }
 .h5 a:hover,
 h5 a:hover {
-  color: #ff0060;
+  color: #008cff;
   text-decoration: none;
 }
 .h5 small,
@@ -4910,9 +4910,9 @@ h5 small {
   transition: all 0.2s linear;
 }
 .social-round-icon:hover {
-  background-color: #ff0060;
+  background-color: #008cff;
   color: #fff;
-  border-color: #ff0060;
+  border-color: #008cff;
 }
 .social-round-icon.white-round-icon {
   border: 1px solid #fff;
@@ -4920,7 +4920,7 @@ h5 small {
 }
 .social-round-icon.white-round-icon:hover {
   background-color: #fff;
-  color: #ff0060;
+  color: #008cff;
   border-color: #fff;
 }
 .fa-icon {
@@ -4948,13 +4948,13 @@ h5 small {
   color: #000;
 }
 .social-buttons a:hover {
-  color: #ff0060;
+  color: #008cff;
   text-decoration: none;
 }
 .social-buttons a:hover .social-round-icon {
-  background-color: #ff0060;
+  background-color: #008cff;
   color: #fff;
-  border-color: #ff0060;
+  border-color: #008cff;
 }
 .carousel-caption {
   position: relative;
