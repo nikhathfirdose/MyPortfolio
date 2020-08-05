@@ -1,13 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: Black;
+  font-size: 10px;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+}
+.left {
+  text-transform: uppercase;
+}
+.right {
+  align-self: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.right > a {
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  color: black;
+}
+.right > a:hover {
+  color: crimson;
+}
+
+.home-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  border: 0.2rem solid yellow;
+  background: url("./images/computer-table.jpeg") no-repeat center;
+  background-size: cover;
+  background-color: rgb(119, 112, 112);
+  background-blend-mode: lighten;
 }
