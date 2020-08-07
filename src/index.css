@@ -72,12 +72,16 @@ body {
   flex-direction: column;
   background-color: white;
   opacity: 0.7;
-  animation: 1.5s ease-in 0s 1 slideInFromRight;
+  animation: 1.5s ease-in 0s 1 slideInFromTop;
+}
+.media-links:hover {
+  opacity: 0.9;
 }
 #profile-link {
   margin: 0.2rem;
   padding: 0.3rem;
 }
+
 #about-container {
   margin: 2rem 0;
 }
@@ -113,7 +117,7 @@ h2 {
 .resume:hover {
   background-color: rgb(102, 97, 97);
 }
-@keyframes slideInFromRight {
+@keyframes slideInFromTop {
   0% {
     transform: translateY(-200%);
   }

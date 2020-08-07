@@ -7,7 +7,7 @@ const Home = () => {
         <h1 className="heading">Nikhath Firdose</h1>
         <div className="nav-bar">
           <a href="#about-container"> About Me </a>
-          <a href="#"> Projects</a>
+          <a href="#project-container"> Projects</a>
           <a href="#"> Contact </a>
         </div>
       </header>
