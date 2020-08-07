@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../images/profile.jpg";
+import profile from "../images/picture.jpg";
 function About() {
   return (
     <div id="about-container">
@@ -11,8 +11,7 @@ function About() {
             Hi! I am Nikhath Firdose and I am pursuing B.Tech in Electronics and
             Instrumentation Engineering. I am an optimistic, ambitious, and
             goal-oriented person and have a keen interest in Web programming. I
-            am looking forward to new oppurtunities in learning new technologies
-            and building a career in the IT Industry
+            am looking forward to new oppurtunities in in the IT Industry
             {/* <br />
             Looking for oppurtunities in the IT idustry to have a challenging
             career path */}

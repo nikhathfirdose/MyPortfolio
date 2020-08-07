@@ -1,5 +1,5 @@
 import React from "react";
-
+import resume from "../images/Nikhath Firdose.pdf";
 const Home = () => {
   return (
     <div>
@@ -17,7 +17,9 @@ const Home = () => {
           <p className="description">
             A Junior Web-Developer who likes to Create. Build and Design Things
           </p>
-          <button> Resume</button>
+          <a href={resume} target="_blank" className="resume">
+            Resume
+          </a>
         </div>
       </div>
       <div className="media-links">
