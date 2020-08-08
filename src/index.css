@@ -41,15 +41,14 @@ body {
 }
 
 .cover-page {
-  top: 0;
-  left: 0;
-  width: 100%;
+  width: 100vw;
+  max-width: 100%;
+  display: block;
   height: 90vh;
-  background: url("./images/computer-table.jpeg") no-repeat;
+  background: url("./images/computer-table.jpeg") no-repeat center center;
   background-size: cover;
   background-color: rgba(32, 32, 32, 0.45);
   background-blend-mode: color-burn;
-  background-position: center center;
 }
 .introduction {
   position: absolute;
@@ -61,9 +60,7 @@ body {
   font-family: "Lemonada", cursive;
   line-height: 1.3rem;
 }
-.name {
-  line-height: 2rem;
-}
+
 .media-links {
   position: fixed;
   top: 12rem;
@@ -83,14 +80,13 @@ body {
   margin: 0.2rem;
   padding: 0.3rem;
 }
-
 #about-container {
-  margin: 2rem 0;
+  margin: 2.2vw 0;
 }
 h2 {
   position: relative;
-  left: 22%;
-  margin-bottom: 1rem;
+  left: 20vw;
+  margin-bottom: 1vw;
 }
 .about-content {
   display: flex;
@@ -99,7 +95,7 @@ h2 {
   line-height: 2rem;
 }
 .profile-img {
-  width: 15rem;
+  width: 12rem;
   height: 13rem;
   margin-left: 18%;
 }
@@ -124,8 +120,8 @@ h2 {
   color: white;
   justify-content: space-between;
   outline: 0.1 solid black;
-  font-size: 1.3rem;
-  padding: 0 2rem;
+  font-size: 150%;
+  padding: 0 2vw;
   background-color: grey;
 }
 @keyframes slideInFromTop {
@@ -134,5 +130,48 @@ h2 {
   }
   100% {
     transform: translateY(0);
+  }
+}
+@media only screen and (max-device-width: 600px) {
+  .heading {
+    font-size: 4.5vw;
+  }
+  .nav-bar > a {
+    color: white;
+    padding: 0;
+  }
+  .nav-bar > a:hover {
+    color: white;
+  }
+  .introduction {
+    font-size: 0.7rem;
+    left: 2vw;
+  }
+  .media-links {
+    left: 0;
+    right: auto;
+    top: 14vw;
+    flex-direction: row;
+  }
+  h2 {
+    left: 10vw;
+    margin-bottom: 3vw;
+  }
+  .about-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-img {
+    width: 15rem;
+    height: 17rem;
+    margin-left: 15vw;
+  }
+  .about-info {
+    margin-right: 5%;
+    padding: 1rem 1.5rem;
+  }
+
+  #contact {
+    font-size: 3vw;
   }
 }
