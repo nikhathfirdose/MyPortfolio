@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap");
+
+/* * {
+  
+} */
+.projects {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-left: 23%;
+}
+.project {
+  flex: 1 0 50%;
+  padding: 0.2% 0;
+}
+.project:first-child {
+  flex: 1 0 100%;
+  align-self: center;
+}
+.landscape-image {
+  background-image: url("./images/shopResize.gif");
+  width: 825px;
+  height: 422px;
+}
+.project-name {
+  padding: 0 0.8rem;
+  font-weight: 800;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.github.first {
+  margin-left: 28%;
+}
+.github {
+  text-decoration: none;
+  color: black;
+  border: 0.1rem solid white;
+  padding: 0.2rem 2.6rem;
+  margin-left: 6.5%;
+
+  box-shadow: 0.2rem 0.15rem 0.4rem black;
+  line-height: 2rem;
+  font-size: 1rem;
+  border-radius: 3%;
+}
+.github:hover {
+  font-weight: 800;
+  font-size: 1.05rem;
+}
+.tech {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3rem;
+  font-size: 1rem;
+}
+.project-info {
+  padding-right: 30%;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
