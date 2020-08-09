@@ -27,14 +27,14 @@
   text-transform: uppercase;
 }
 .github.first {
-  margin-left: 20vw;
+  margin-left: 18vw;
 }
 .github {
   text-decoration: none;
   color: black;
   border: 0.1rem solid white;
   padding: 0.2vw 4.5vw;
-  margin-left: 0.4vw;
+  margin: 0 0.4vw;
   box-shadow: 0.2rem 0.15rem 0.4rem black;
   line-height: 2rem;
   font-size: 1rem;
@@ -61,12 +61,9 @@
     width: 400px;
   }
   .github.first {
-    margin-left: 27vw;
+    margin: 0 27vw;
   }
   .github {
-    margin-left: 13vw;
+    margin: 0 13vw;
   }
-  /* .project.item-1 {
-    margin-left: 1vw;
-  } */
 }
