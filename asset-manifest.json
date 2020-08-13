@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.f05a047b.chunk.css",
+    "main.css": "/MyPortfolio/static/css/main.c12d082e.chunk.css",
     "main.js": "/MyPortfolio/static/js/main.1ab718ed.chunk.js",
     "main.js.map": "/MyPortfolio/static/js/main.1ab718ed.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.7e73d9a0.js",
@@ -8,9 +8,9 @@
     "static/js/2.f04804ac.chunk.js": "/MyPortfolio/static/js/2.f04804ac.chunk.js",
     "static/js/2.f04804ac.chunk.js.map": "/MyPortfolio/static/js/2.f04804ac.chunk.js.map",
     "index.html": "/MyPortfolio/index.html",
-    "precache-manifest.d4cfa5c3eb47717e32a77e50a6d8c44e.js": "/MyPortfolio/precache-manifest.d4cfa5c3eb47717e32a77e50a6d8c44e.js",
+    "precache-manifest.8094ca9386bc3db877a95329b33d3340.js": "/MyPortfolio/precache-manifest.8094ca9386bc3db877a95329b33d3340.js",
     "service-worker.js": "/MyPortfolio/service-worker.js",
-    "static/css/main.f05a047b.chunk.css.map": "/MyPortfolio/static/css/main.f05a047b.chunk.css.map",
+    "static/css/main.c12d082e.chunk.css.map": "/MyPortfolio/static/css/main.c12d082e.chunk.css.map",
     "static/js/2.f04804ac.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.f04804ac.chunk.js.LICENSE.txt",
     "static/media/Game.png": "/MyPortfolio/static/media/Game.0cf2128b.png",
     "static/media/Nikhath Firdose.pdf": "/MyPortfolio/static/media/Nikhath Firdose.c3f8aad7.pdf",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.7e73d9a0.js",
     "static/js/2.f04804ac.chunk.js",
-    "static/css/main.f05a047b.chunk.css",
+    "static/css/main.c12d082e.chunk.css",
     "static/js/main.1ab718ed.chunk.js"
   ]
 }
