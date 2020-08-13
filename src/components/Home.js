@@ -15,7 +15,7 @@ const Home = () => {
         <div className="introduction">
           <h1 className="name"> Hey! I am Nikhath Firdose</h1>
           <p className="description">
-            A Junior Web-Developer who likes to Create. Build and Design Things
+            An Engineering Student who likes to Design, Create and Build Things
           </p>
           <a href={resume} target="_blank" className="resume">
             Resume
