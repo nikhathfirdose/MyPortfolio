@@ -1,5 +1,10 @@
 import React from "react";
 import resume from "../images/Nikhath Firdose.pdf";
+import github from "../images/github-icon.png";
+import twitter from "../images/twitter-icon.png";
+import linkedin from "../images/linkedin-icon.png";
+import facebook from "../images/facebook-icon.png";
+import instagram from "../images/instagram-icon.png";
 const Home = () => {
   return (
     <div>
@@ -17,7 +22,7 @@ const Home = () => {
           <p className="description">
             An Engineering Student who likes to Design, Create and Build Things
           </p>
-          <a href={resume} target="_blank" className="resume">
+          <a href={resume} target="_blank" id="resume">
             Resume
           </a>
         </div>
@@ -28,20 +33,14 @@ const Home = () => {
           href="https://github.com/nikhathfirdose"
           target="_blank"
         >
-          <img
-            src="https://i.postimg.cc/sD5PRDMy/Programming-Github-icon.png"
-            alt="github"
-          />
+          <img src={github} alt="github" />
         </a>
         <a
           id="profile-link"
           href="https://twitter.com/nikhath_firdose"
           target="_blank"
         >
-          <img
-            src="https://i.postimg.cc/8cJSrvgF/Social-Networks-Twitter-icon.png"
-            alt="twitter"
-          />
+          <img src={twitter} alt="twitter" />
         </a>
 
         <a
@@ -49,17 +48,14 @@ const Home = () => {
           href="https://www.linkedin.com/in/nikhath-firdose/"
           target="_blank"
         >
-          <img src="https://i.postimg.cc/8zrSCMBx/Social-Networks-Linkedin-icon.png" />
+          <img src={linkedin} alt="linked-in" />
         </a>
         <a
           id="profile-link"
           href="https://www.facebook.com/profile.php?id=100013857487670"
           target="_blank"
         >
-          <img
-            src="https://i.postimg.cc/fywztyTm/Social-Networks-Facebook-icon.png"
-            alt="facebook"
-          />
+          <img src={facebook} alt="facebook" />
         </a>
 
         <a
@@ -67,10 +63,7 @@ const Home = () => {
           href="https://www.instagram.com/nikhaaathh/"
           target="_blank"
         >
-          <img
-            src="https://i.postimg.cc/66GLYQct/Social-Networks-Instagram-icon-1.png"
-            alt="instagram"
-          />
+          <img src={instagram} alt="instagram" />
         </a>
       </div>
     </div>

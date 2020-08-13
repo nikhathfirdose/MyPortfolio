@@ -33,7 +33,7 @@ body {
 
 .nav-bar > a {
   text-decoration: none;
-  padding: 0.5rem;
+  padding: 0 1rem;
   font-size: 1.1rem;
   color: black;
 }
@@ -104,7 +104,7 @@ h2 {
   margin-right: 5%;
   padding: 1vw 3vw;
 }
-.resume {
+#resume {
   text-decoration: none;
   color: white;
   border: 0.1rem solid white;
@@ -113,7 +113,7 @@ h2 {
   line-height: 3rem;
   border-radius: 3%;
 }
-.resume:hover {
+#resume:hover {
   background-color: rgb(102, 97, 97);
 }
 #contact {
