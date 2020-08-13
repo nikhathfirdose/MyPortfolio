@@ -1,4 +1,5 @@
 import React from "react";
+
 import resume from "../images/Nikhath Firdose.pdf";
 import github from "../images/github-icon.png";
 import twitter from "../images/twitter-icon.png";
@@ -13,7 +14,14 @@ const Home = () => {
         <div className="nav-bar">
           <a href="#about-container"> About Me </a>
           <a href="#project-container"> Projects</a>
-          <a href="#contact"> Contact </a>
+
+          <a
+            href="mailto:nikhathfirdose3@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Contact
+          </a>
         </div>
       </header>
       <div className="cover-page">
