@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a63122d2d4c3475e559e49e7b40bb0a",
+    "revision": "ef569f002c9842e9cd7b3b76d624aa01",
     "url": "/MyPortfolio/index.html"
   },
   {
-    "revision": "1c3f37589261420982ab",
+    "revision": "1a456956188dd0882ca3",
     "url": "/MyPortfolio/static/css/main.05eb843e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolio/static/js/2.f04804ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1c3f37589261420982ab",
-    "url": "/MyPortfolio/static/js/main.8b228566.chunk.js"
+    "revision": "1a456956188dd0882ca3",
+    "url": "/MyPortfolio/static/js/main.97ef5958.chunk.js"
   },
   {
     "revision": "0d8bee11d1469486e213",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolio/static/media/Game.0cf2128b.png"
   },
   {
-    "revision": "c3f8aad7ffbe210d38eac90f297fe783",
-    "url": "/MyPortfolio/static/media/Nikhath Firdose.c3f8aad7.pdf"
+    "revision": "39aa9778976d1f99c1ef919f02f40cf2",
+    "url": "/MyPortfolio/static/media/Nikhath Firdose.39aa9778.pdf"
   },
   {
     "revision": "1ff7a47aabddce5d8966a50f3eb5da4c",
