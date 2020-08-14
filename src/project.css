@@ -5,11 +5,12 @@
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  padding-left: 20vw;
+  padding: 0 20vw;
 }
+
 .project {
   flex: 1 0 50%;
-  padding: 0.2% 0;
+  padding: 1vw 0;
 }
 .project:first-child {
   flex: 1 0 100%;
@@ -26,9 +27,7 @@
   font-size: 1rem;
   text-transform: uppercase;
 }
-/* .github.first {
-  margin-left: 18vw;
-} */
+
 .github {
   text-decoration: none;
   color: black;
@@ -50,7 +49,7 @@
   font-size: 1rem;
 }
 .project-info {
-  padding-right: 18vw;
+  padding-right: 1.2vw;
   line-height: 1.5rem;
   font-size: 1rem;
 }
@@ -58,12 +57,11 @@
   .landscape-image {
     background-image: url("./images/shopPhone.gif");
     height: 230px;
-    width: 440px;
+    width: 360px;
   }
-  /* .github.first {
-    margin: 0 27vw;
-  } */
-  .github {
-    margin: 0 11vw;
+}
+@media only screen and (max-device-width: 359px) {
+  .landscape-image {
+    width: auto;
   }
 }

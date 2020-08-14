@@ -8,11 +8,10 @@ function About() {
         <img className="profile-img" src={profile} />
         <div className="about-info">
           <p>
-            Hi! I am Nikhath Firdose. I am pursuing B.Tech in Electronics and
-            Instrumentation Engineering. I am an optimistic, ambitious, and
-            goal-oriented person and have a keen interest in Web programming. I
-            am looking forward to new oppurtunities and learning in the IT
-            Industry
+            Hi! I am Nikhath Firdose. I am pursuing my Bachelors in Electronics
+            and Instrumentation Engineering. I am an optimistic, ambitious, and
+            goal-oriented person and have a keen interest in Web Development. I
+            am looking forward to oppurtunities and growth in the IT Industry
             {/* <br />
             Looking for oppurtunities in the IT idustry to have a challenging
             career path */}

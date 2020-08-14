@@ -24,7 +24,7 @@ body {
   z-index: 1;
   outline: 0.07rem solid black;
 }
-.heading {
+.heading-name {
   text-transform: uppercase;
 }
 .nav-bar {
@@ -84,25 +84,22 @@ body {
 #about-container {
   margin: 2.2vw 0;
 }
-h2 {
-  position: relative;
-  margin: 0 20vw;
-  margin-bottom: 1vw;
+.heading {
+  padding: 1vw 15vw;
+  text-transform: uppercase;
 }
 .about-content {
   display: flex;
   font-family: "Baloo Paaji 2", cursive;
   font-size: 200%;
   line-height: 2rem;
-  margin: 0 17.5vw;
+  margin: 0 15vw;
 }
 .profile-img {
   width: 12rem;
   height: 13rem;
 }
-.about-info {
-  padding: 1vw 3vw;
-}
+
 #resume {
   text-decoration: none;
   color: white;
@@ -121,7 +118,7 @@ h2 {
   justify-content: space-between;
   outline: 0.1 solid black;
   font-size: 150%;
-  padding: 0 2vw;
+  padding: 1vw 2vw;
 
   max-width: 100%;
   background-color: grey;
@@ -135,19 +132,14 @@ h2 {
   }
 }
 @media only screen and (max-device-width: 600px) {
-  /* html body {
-    overflow-x: scroll;
-  } */
-  .heading {
+  .heading-name {
     font-size: 4.5vw;
   }
   .nav-bar > a {
-    color: white;
+    font-size: 0;
     padding: 0;
   }
-  .nav-bar > a:hover {
-    color: white;
-  }
+
   .introduction {
     font-size: 0.7rem;
     left: 2vw;
@@ -159,21 +151,14 @@ h2 {
     margin-top: 6vw;
     flex-direction: row;
   }
-  h2 {
-    left: 10vw;
-    margin-bottom: 3vw;
-  }
+
   .about-content {
     display: flex;
     flex-direction: column;
   }
   .profile-img {
     width: 15rem;
-    height: 17rem;
-  }
-  .about-info {
-    margin-right: 0;
-    padding: 1vw;
+    height: 19rem;
   }
 
   #contact {

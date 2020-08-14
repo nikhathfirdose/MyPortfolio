@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       <header className="header-container">
-        <h1 className="heading">Nikhath Firdose</h1>
+        <h1 className="heading-name">Nikhath Firdose</h1>
         <div className="nav-bar">
           <a href="#about-container"> About Me </a>
           <a href="#project-container"> Projects</a>
@@ -30,7 +30,12 @@ const Home = () => {
           <p className="description">
             An Engineering Student who likes to Design, Create and Build Things
           </p>
-          <a href={resume} target="_blank" id="resume">
+          <a
+            href={resume}
+            target="_blank"
+            rel="noopener noreferrer"
+            id="resume"
+          >
             Resume
           </a>
         </div>
@@ -40,6 +45,7 @@ const Home = () => {
           id="profile-link"
           href="https://github.com/nikhathfirdose"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img src={github} alt="github" />
         </a>
@@ -47,6 +53,7 @@ const Home = () => {
           id="profile-link"
           href="https://twitter.com/nikhath_firdose"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img src={twitter} alt="twitter" />
         </a>
@@ -55,6 +62,7 @@ const Home = () => {
           id="profile-link"
           href="https://www.linkedin.com/in/nikhath-firdose/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img src={linkedin} alt="linked-in" />
         </a>
@@ -62,6 +70,7 @@ const Home = () => {
           id="profile-link"
           href="https://www.facebook.com/profile.php?id=100013857487670"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img src={facebook} alt="facebook" />
         </a>
@@ -70,6 +79,7 @@ const Home = () => {
           id="profile-link"
           href="https://www.instagram.com/nikhaaathh/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img src={instagram} alt="instagram" />
         </a>

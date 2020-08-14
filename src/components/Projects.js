@@ -10,12 +10,12 @@ function Projects() {
       <div className="projects">
         <div className="project item-1">
           <p className="project-name"> Shopping Page</p>
-          {/* <img src={shop} /> */}
           <p className="landscape-image"></p>
           <p className="project-details">
             <a
               className="github first"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/nikhathfirdose/ShopOnline"
             >
               View on Github
@@ -36,6 +36,7 @@ function Projects() {
             <a
               className="github"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/nikhathfirdose/QuizMania"
             >
               View on Github
@@ -57,6 +58,7 @@ function Projects() {
             <a
               className="github"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/nikhathfirdose/TicTacToe"
             >
               View on Github
