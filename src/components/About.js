@@ -5,7 +5,7 @@ function About() {
     <div id="about-container">
       <h2 className="heading">About me</h2>
       <div className="about-content">
-        <img className="profile-img" src={profile} />
+        <img className="profile-img" src={profile} alt="profile" />
         <div className="about-info">
           <p>
             Hi! I am Nikhath Firdose. I am pursuing my Bachelors in Electronics

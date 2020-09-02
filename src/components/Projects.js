@@ -31,7 +31,7 @@ function Projects() {
         </div>
         <div className="project item-2">
           <p className="project-name"> Trivia Quiz</p>
-          <img src={quiz} />
+          <img src={quiz} alt="quiz" />
           <p className="project-details">
             <a
               className="github"
@@ -53,7 +53,7 @@ function Projects() {
         </div>
         <div className="project item-3">
           <p className="project-name"> Tic-Tac-Toe</p>
-          <img src={game} />
+          <img src={game} alt="game" />
           <p className="project-details">
             <a
               className="github"
