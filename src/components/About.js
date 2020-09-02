@@ -12,9 +12,6 @@ function About() {
             and Instrumentation Engineering. I am an optimistic, ambitious, and
             goal-oriented person and have a keen interest in Web Development. I
             am looking forward to oppurtunities and growth in the IT Industry
-            {/* <br />
-            Looking for oppurtunities in the IT idustry to have a challenging
-            career path */}
           </p>
         </div>
       </div>
