@@ -21,6 +21,11 @@
   width: 825px;
   height: 422px;
 }
+.second-img {
+  background-image: url("./images/design.png");
+  width: 825px;
+  height: 422px;
+}
 .project-name {
   padding: 0 0.8vw;
   font-weight: 800;
@@ -49,19 +54,30 @@
   font-size: 1rem;
 }
 .project-info {
-  padding-right: 1.2vw;
   line-height: 1.5rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  margin-right: 4.5vw;
+  /* border: 2px solid red; */
 }
 @media only screen and (max-device-width: 600px) {
   .landscape-image {
     background-image: url("./images/shopPhone.gif");
-    height: 230px;
     width: 360px;
+    height: 230px;
+  }
+  .second-img {
+    background-image: url("./images/designPhone.png");
+    width: 315px;
+    height: 274px;
   }
 }
 @media only screen and (max-device-width: 359px) {
   .landscape-image {
+    width: auto;
+  }
+}
+@media only screen and (max-device-width: 300px) {
+  .second-img {
     width: auto;
   }
 }
