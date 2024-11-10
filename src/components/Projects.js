@@ -24,8 +24,7 @@ function Projects() {
               <strong>Technologies used:</strong> HTML, CSS and GSAP Animations{" "}
             </p>
             <p className="project-info">
-              Landing page designed with CSS animations. It loads the webpage
-              and displays various shopping options available to users
+            A dynamic landing page with CSS animations, offering an engaging user experience. It loads smoothly, presents various shopping options, and uses seamless animations to enhance visual appeal.
             </p>
           </p>
         </div>
@@ -45,10 +44,7 @@ function Projects() {
               <strong>Technologies used:</strong> HTML, CSS, JS
             </p>
             <p className="project-info">
-              A Quiz app built with JS, which loads basic Computer software
-              questions with multiple choice answers. It also displays the Top 5
-              players on leader board
-            </p>
+            A JavaScript-powered quiz app featuring multiple-choice questions on basic computer software. Through building this app, I learned to implement dynamic content handling and state management.    </p>
           </p>
         </div>
         <div className="project item-3">
@@ -67,8 +63,7 @@ function Projects() {
               <strong>Technologies used: </strong> HTML, CSS, ReactJs
             </p>
             <p className="project-info">
-              Game built with React Hooks. helped in understanding of useState
-              and other functional properties of React
+            A game built with React Hooks, designed to deepen my understanding of useState and other functional features of React, enhancing my skills in state management and component logic.
             </p>
           </p>
         </div>
@@ -90,8 +85,7 @@ function Projects() {
               <strong>Technologies used:</strong> HTML/CSS, ReactJS, Bootstrap
             </p>
             <p className="project-info">
-              Fetches data after making an API call and displays the episodes of
-              Rick and Morty with functionality of search and pagination
+            An app that fetches Rick and Morty episodes through an API, where I implemented search functionality and pagination to enhance navigation, helping me deepen my understanding of these key features in React.
             </p>
           </p>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-import resume from "../images/Nikhath Firdose.pdf";
+// import resume from "../images/Nikhath Firdose.pdf";
 import github from "../images/github-icon.png";
 import twitter from "../images/twitter-icon.png";
 import linkedin from "../images/linkedin-icon.png";
@@ -15,29 +15,28 @@ const Home = () => {
           <a href="#about-container"> About Me </a>
           <a href="#project-container"> Projects</a>
 
-          <a
+          {/* <a
             href="mailto:nikhathfirdose3@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            Contact
-          </a>
+          > */}
+          <a href= "#contact"> Contact</a>
         </div>
       </header>
       <div className="cover-page">
         <div className="introduction">
           <h1 className="name"> Hey! I am Nikhath Firdose</h1>
           <p className="description">
-            An Engineering Student who likes to Design, Create and Build Things
+          A Software Engineering student who loves designing, creating, and bringing ideas to life
           </p>
-          <a
+          {/* <a
             href={resume}
             target="_blank"
             rel="noopener noreferrer"
             id="resume"
           >
             Resume
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="media-links">
