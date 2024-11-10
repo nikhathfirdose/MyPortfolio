@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.bfc95063.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.e0d9d828.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.e0d9d828.chunk.js.map",
-    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.7e73d9a0.js",
-    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.7e73d9a0.js.map",
-    "static/js/2.4ec79b66.chunk.js": "/MyPortfolio/static/js/2.4ec79b66.chunk.js",
-    "static/js/2.4ec79b66.chunk.js.map": "/MyPortfolio/static/js/2.4ec79b66.chunk.js.map",
+    "main.css": "/MyPortfolio/static/css/main.d2c764b8.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.5840930f.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.5840930f.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.07e5dd36.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.07e5dd36.js.map",
+    "static/js/2.9ed83ca2.chunk.js": "/MyPortfolio/static/js/2.9ed83ca2.chunk.js",
+    "static/js/2.9ed83ca2.chunk.js.map": "/MyPortfolio/static/js/2.9ed83ca2.chunk.js.map",
     "index.html": "/MyPortfolio/index.html",
-    "precache-manifest.f25f68834e0dffa468069dbcb79e6181.js": "/MyPortfolio/precache-manifest.f25f68834e0dffa468069dbcb79e6181.js",
+    "precache-manifest.c61e2e31080e8e048fc728249b16b297.js": "/MyPortfolio/precache-manifest.c61e2e31080e8e048fc728249b16b297.js",
     "service-worker.js": "/MyPortfolio/service-worker.js",
-    "static/css/main.bfc95063.chunk.css.map": "/MyPortfolio/static/css/main.bfc95063.chunk.css.map",
-    "static/js/2.4ec79b66.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.4ec79b66.chunk.js.LICENSE.txt",
+    "static/css/main.d2c764b8.chunk.css.map": "/MyPortfolio/static/css/main.d2c764b8.chunk.css.map",
+    "static/js/2.9ed83ca2.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.9ed83ca2.chunk.js.LICENSE.txt",
     "static/media/Game.png": "/MyPortfolio/static/media/Game.0cf2128b.png",
     "static/media/Quiz.png": "/MyPortfolio/static/media/Quiz.1ff7a47a.png",
     "static/media/index.css": "/MyPortfolio/static/media/computer-table.a9552134.jpeg",
     "static/media/project.css": "/MyPortfolio/static/media/shopResize.3f87a661.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e73d9a0.js",
-    "static/js/2.4ec79b66.chunk.js",
-    "static/css/main.bfc95063.chunk.css",
-    "static/js/main.e0d9d828.chunk.js"
+    "static/js/runtime-main.07e5dd36.js",
+    "static/js/2.9ed83ca2.chunk.js",
+    "static/css/main.d2c764b8.chunk.css",
+    "static/js/main.5840930f.chunk.js"
   ]
 }
