@@ -53,7 +53,7 @@ body {
 }
 .introduction {
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 14%;
   right: 41%;
   color: white;
@@ -154,22 +154,23 @@ body {
     flex-direction: row;
   }
 
-  .about-container {
-    display: flex;
-    align-items: center;
+  .about-content {
+    display: flex;           /* Aligns the image and text side by side */
+    align-items: center;     /* Vertically centers the content */
+    /* gap: 1rem;               */
   }
   
-  .profile-img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin-right: 20px;
-  }
-  
+  /* .profile-img {
+    /* width: 1rem;            /* Image width */
+    /* height: 1rem;           Image height */
+    /* object-fit: cover;       Ensures image maintains aspect ratio */
+  /* } */
+   
   .about-info {
-    max-width: 600px;
+    display: flex;
+    flex-direction: column;  /* Text is stacked vertically */
+    /* gap: 1rem;                */
   }
-  
   
   
   
