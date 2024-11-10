@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a647cae82fd8caa90717818310cd07f",
+    "revision": "83bf0f38d347f3e7d6180ca82626d9e7",
     "url": "/MyPortfolio/index.html"
   },
   {
-    "revision": "7765e62e63c3f70d373f",
-    "url": "/MyPortfolio/static/css/main.8dd352d0.chunk.css"
+    "revision": "35d5c5b1fbeb70c50483",
+    "url": "/MyPortfolio/static/css/main.bfc95063.chunk.css"
   },
   {
-    "revision": "17e5466beab8cf3faee7",
-    "url": "/MyPortfolio/static/js/2.f04804ac.chunk.js"
+    "revision": "1ca76fa303daab6b5231",
+    "url": "/MyPortfolio/static/js/2.4ec79b66.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/MyPortfolio/static/js/2.f04804ac.chunk.js.LICENSE.txt"
+    "url": "/MyPortfolio/static/js/2.4ec79b66.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7765e62e63c3f70d373f",
-    "url": "/MyPortfolio/static/js/main.9d9af8eb.chunk.js"
+    "revision": "35d5c5b1fbeb70c50483",
+    "url": "/MyPortfolio/static/js/main.e0d9d828.chunk.js"
   },
   {
     "revision": "0d8bee11d1469486e213",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0cf2128b80ccb2810d4a7477f43e1401",
     "url": "/MyPortfolio/static/media/Game.0cf2128b.png"
-  },
-  {
-    "revision": "1fa944d87763e78cc428d2cfbd3cd7fc",
-    "url": "/MyPortfolio/static/media/Nikhath Firdose.1fa944d8.pdf"
   },
   {
     "revision": "1ff7a47aabddce5d8966a50f3eb5da4c",
@@ -46,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9830030172ae910dfcf89e6283294d2a",
     "url": "/MyPortfolio/static/media/designPhone.98300301.png"
-  },
-  {
-    "revision": "301828bd4f6c396b378cc001f9bb614c",
-    "url": "/MyPortfolio/static/media/picture.301828bd.jpg"
   },
   {
     "revision": "59382976fb3cc414a3d00d7e2a6e6d07",
